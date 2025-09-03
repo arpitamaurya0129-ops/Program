@@ -1,0 +1,12 @@
+<?php
+$arr=[20,40,10,80,70,30];
+$asc=$arr;
+sort($asc);
+$desc=$arr;
+rsort($desc);
+echo"Original:";
+echo"<br>Ascending:";
+print_r($asc);
+echo"<br>Descending:";
+print_r($desc);
+?>
